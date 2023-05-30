@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>gym</id>
+    <version>1.0.0</version>
+    <authors>gym</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Tolunay\Desktop\otomasyon\gym\bin\Debug\net7.0-windows\gym.runtimeconfig.json" target="lib\net7.0-windows7.0\gym.runtimeconfig.json" />
+    <file src="C:\Users\Tolunay\Desktop\otomasyon\gym\bin\Debug\net7.0-windows\gym.dll" target="lib\net7.0-windows7.0\gym.dll" />
+  </files>
+</package>
